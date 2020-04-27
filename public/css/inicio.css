@@ -1,0 +1,8 @@
+header {
+    background: #2c3e50;
+    color: #ffffff;
+}
+body{
+    background: url(../img/fondo.jpg) no-repeat fixed center center #2c35;
+    background-size: cover;
+}
