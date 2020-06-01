@@ -1,8 +1,25 @@
 header {
-    background: #2c3e50;
+    background: #464646;
     color: #ffffff;
+    /* 34b1da */
+    /* f2f2f2 */
 }
 body{
-    background: url(../img/fondo.jpg) no-repeat fixed center center #2c35;
+    background: url(../img/fondo.jpg) no-repeat fixed center center #ebe9e9;
     background-size: cover;
+}
+
+.general{
+    /* background: red; */
+    border: rgb(168, 161, 161) 5px groove;
+    margin-top: 8%;
+    padding: 20px 50px 20px 50px;
+    background: rgb(70, 66, 66);
+    color: white;
+}
+.formulario_inicio{
+    padding-top: 20px;
+}
+.general h2 {
+    text-align: center;
 }
