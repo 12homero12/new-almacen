@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    text-transform: none;
+    font-family: "Homer Simpson UI";
+}
+/* html, body{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+    margin:0px;
+  } */
+.contenido{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+}
+.top-navbar{
+    /* border: 1px solid red; */
+    min-height: 50px;
+    /* padding: 12px; */
+    background: red;
+    /*height: 50px;/*
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%; */
+}
+ .top-navbar .hamburger{
+    width: 30px;
+    height: 30px;
+    /* background: blue; */
+    margin-top: 10px;
+    position: relative;
+    font-size: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    /* top: 3px; */
+    /* padding: 6px; */
+    /* bottom: 2px; */
+    cursor: pointer;
+    /* height: 40px; */
+    color: white;
+    /* left: 200px; */
+}/*
+.top-navbar .hamburger span{
+    cursor: pointer;
+}
+.top-navbar .menu_horizontal{
+    width: calc(100% - 80px);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.top-navbar .logo{
+    background: black;
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    left: 0px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.top-navbar .menu_horizontal .titulo{
+    /* background: black; 
+    margin-left: 230px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.top-navbar .menu_horizontal .usuario ul li{
+    position: relative;
+    /* font-size: 25px; 
+}
+.top-navbar .menu_horizontal .usuario ul li a{
+    font-size: 25px;
+    color: white;
+}
+.top-navbar .menu_horizontal .usuario {
+    position: relative;
+    background: blue;
+    padding-left: 10px;
+    padding-top: 4px;
+    width: 45px;
+    height: 45px;
+    border-radius: 90px;
+    cursor: pointer;
+} */
