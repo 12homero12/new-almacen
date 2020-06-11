@@ -1,47 +1,9 @@
-// $('.menu_ocultar').on('click',function(){
-//     $('.menu_vertical').toggleClass('menu_vertical_sow');
-// })
 // submenu usuario
 $(document).ready(function(){
     $(".usuario ul li a").click(function(){
         $(".submenu").toggleClass("active");
     })
 })
-
-// $(document).ready(function(){
-//     window.onload=primera;
-//     // window.onresize=primera;
-//     function primera()
-//     {
-//         // alert("omar");
-//         if (screen.width >=992)
-//         {
-//             $(".nombre").addClass("active");
-//         }
-//         else{
-//             $(".nombre").removeClass("active");
-//         }
-//     }
-    
-//     $(window).resize(function(){
-
-//         if (window.innerWidth>=400)
-//         {
-//             $(".nombre").addClass("active");
-            
-//         }
-//         else
-//         {
-//             $(".nombre").removeClass("active");
-//         }
-//     })
-//     // function mensaje(){
-//     //     alert(mensaje);
-
-//     // };
-//     // window.onresize=mensaje;
-// })
-// fin
 
 // ocultar menu vertical
 $(document).ready(function(){

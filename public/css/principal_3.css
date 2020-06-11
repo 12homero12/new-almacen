@@ -281,8 +281,6 @@ body{
         color:#555555;
         padding: 10px 0px;
         white-space: nowrap;
-
-
     } 
     .contenido_secundario .menu_vertical .encabezado_menu_vertical .logo_vertical p{
         text-transform: uppercase;
@@ -293,7 +291,6 @@ body{
         -webkit-text-stroke: -0.5px #ffffff;
         letter-spacing: 0px;
         /* text-shadow: -1px -1px white,1px 1px #921515; */
-        
         text-shadow: white -0.2em 0.1em 0.1em;
     }     
     .contenido_secundario .menu_vertical .encabezado_menu_vertical .icono_usuario_vertical{
