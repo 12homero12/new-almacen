@@ -30,7 +30,6 @@
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos voluptatem dolore odio porro fugiat tempore modi debitis vero quidem deserunt quasi praesentium, dolor earum sed itaque ea consequuntur inventore commodi.
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos voluptatem dolore odio porro fugiat tempore modi debitis vero quidem deserunt quasi praesentium, dolor earum sed itaque ea consequuntur inventore commodi.
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos voluptatem dolore odio porro fugiat tempore modi debitis vero quidem deserunt quasi praesentium, dolor earum sed itaque ea consequuntur inventore commodi.
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos voluptatem dolore odio porro fugiat tempore modi debitis vero quidem deserunt quasi praesentium, dolor earum sed itaque ea consequuntur inventore commodi.
                     </div>             
                 </div>
             </div>

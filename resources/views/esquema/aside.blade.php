@@ -5,7 +5,8 @@
                 <i class="fas fa-user-circle"></i>
             </div>
             <div class="logo_vertical">
-                <p>omar lazo</p> 
+                {{-- <p></p>  --}}
+                <h4>omar lazo</h4>
             </div>
             
         </div>
@@ -19,13 +20,62 @@
                 <a href="">
                     <span class="icono_vertical"><i class="far fa-list-alt"></i></span>
                     <span class="descripcion_vertical">Organigrama Personal</span>
+                    <span class="flecha_vertical"><i class="fas fa-chevron-down"></i></span>
                 </a>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="subicono_vertical"><i class="fas fa-calculator"></i></span>
+                            <span class="subdescripcion_vertical">Item n1</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="subicono_vertical"><i class="fas fa-calculator"></i></span>
+                            <span class="subdescripcion_vertical">Item n1</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="subicono_vertical"><i class="fas fa-calculator"></i></span>
+                            <span class="subdescripcion_vertical">Item n1</span>
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li>
                 <a href="">
                     <span class="icono_vertical"><i class="far fa-list-alt"></i></span>
                     <span class="descripcion_vertical">Venta</span>
+                    <span class="flecha_vertical"><i class="fas fa-chevron-down"></i></span>
+
                 </a>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="subicono_vertical"><i class="fas fa-calculator"></i></span>
+                            <span class="subdescripcion_vertical">Item n1</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="subicono_vertical"><i class="fas fa-calculator"></i></span>
+                            <span class="subdescripcion_vertical">Item n1</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="subicono_vertical"><i class="fas fa-calculator"></i></span>
+                            <span class="subdescripcion_vertical">Item n1</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="subicono_vertical"><i class="fas fa-calculator"></i></span>
+                            <span class="subdescripcion_vertical">Item n1</span>
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li>
                 <a href="">
@@ -51,6 +101,8 @@
                     <span class="descripcion_vertical">menu 5</span>
                 </a>
             </li>
+            {{-- nuevo --}}
+            
         </ul>
     </div>
 </div>

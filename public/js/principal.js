@@ -4,6 +4,28 @@ $(document).ready(function(){
         $(".submenu").toggleClass("active");
     })
 })
+// pie de pagina 
+$(document).ready(function(){
+    $(".redes_sociales_footer").click(function(){
+        $(".redes_sociales_footer_cont").toggleClass("active");
+        $(".descripcion_footer_cont").toggleClass("active");
+        $(".contacto_footer_cont").toggleClass("active");
+
+    })
+    $(".descripcion_footer").click(function(){
+        $(".redes_sociales_footer_cont").toggleClass("active");
+        $(".descripcion_footer_cont").toggleClass("active");
+        $(".contacto_footer_cont").toggleClass("active");
+
+    })
+    $(".contacto_footer").click(function(){
+        $(".redes_sociales_footer_cont").toggleClass("active");
+        $(".descripcion_footer_cont").toggleClass("active");
+        $(".contacto_footer_cont").toggleClass("active");
+
+    })
+})
+
 
 // ocultar menu vertical
 $(document).ready(function(){
@@ -52,10 +74,23 @@ $(document).ready(function(){
     
 })
 
-// function m(){
-//     $('.contenido_secundario').animate({opacity:"0"}, {duration: 1000, queue: false});
-//   }
-  
-//   setTimeout(function() {    
-//       m();
-//   }, 3000);
+// ocultar el submenu vertical
+
+$(document).ready(function(){
+    $('.menu_vertical_menu ul li:has(ul)').click(function(e){
+        
+        e.preventDefault();
+        if($(this).hasClass('activado'))
+        {
+            $(this).removeClass('activado');
+            $(this).children('ul').slideUp();
+        }
+        else
+        {
+            $('.menu_vertical_menu ul li ul').slideUp();
+            $('.menu_vertical_menu ul li').removeClass('activado');
+            $(this).addClass('activado');
+            $(this).children('ul').slideDown();
+        }
+    });
+});
