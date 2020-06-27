@@ -3,14 +3,14 @@
     <div class="row footer-header">
         <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 ">
             <div class="row redes_sociales_footer">
-                <a ><img src="img/facebook.png" alt="" height="20px"></a>
-                <a ><img src="img/whatsapp.png" alt="" height="20px"></a>
-                <a ><img src="img/twitter.png" alt="" height="20px"></a>
+                <a ><img src="{{asset('img/facebook.png')}}" alt="" height="20px"></a>
+                <a ><img src="{{asset('img/whatsapp.png')}}" alt="" height="20px"></a>
+                <a ><img src="{{asset('img/twitter.png')}}" alt="" height="20px"></a>
             </div>
             <div class="row redes_sociales_footer_cont">
-                <div><a href=""><img src="img/facebook.png" alt="" height="30px"> Siguenos en Facebook</a></div>
-                <div><a href=""><img src="img/whatsapp.png" alt="" height="30px"> Whatsapp 777867166</a></div>
-                <div><a href=""><img src="img/twitter.png" alt="" height="30px"> Siguenos en Twitter</a></div>
+                <div><a href=""><img src="{{asset('img/facebook.png')}}" alt="" height="30px"> Siguenos en Facebook</a></div>
+                <div><a href=""><img src="{{asset('img/whatsapp.png')}}" alt="" height="30px"> Whatsapp 777867166</a></div>
+                <div><a href=""><img src="{{asset('img/twitter.png')}}" alt="" height="30px"> Siguenos en Twitter</a></div>
             </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-5 col-lg-5 ">

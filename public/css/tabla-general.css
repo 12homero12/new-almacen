@@ -1,0 +1,145 @@
+/* guiones para ordenar tablas */
+thead .tablesorter-header {
+    /* background: red; */
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 4px 20px 4px 4px;
+    white-space: normal;
+    cursor: pointer;
+    /* background-image: url("{{ asset('img/black-unsorted.gif')}}"); */
+
+    background-image: url('../img/metro-unsorted.png');
+    color: #ffffff;
+
+}
+thead .tablesorter-header.botones_tabla{
+    background-image: none;
+    
+}
+th.tablesorter-headerAsc {
+    /* background-image: url({{asset('img/black-asc.gif')}}); */
+    background-image: url('../img/metro-white-asc.png');
+}
+th.tablesorter-headerDesc {
+    background-image: url('../img/metro-white-desc.png');   
+}
+/* estilos  */
+
+/* encabezado */
+
+.tabla_encabezado{
+    /* display: flex; */
+    /* justify-content: space-between;
+    flex-wrap: wrap; */
+    /* border: 1px solid red; */
+    padding: 0px 20px;
+    /* margin-bottom: 10px; */
+}
+.tabla_encabezado h3{
+    /* border: 1px solid blue; */
+
+    text-transform: capitalize;
+    letter-spacing:5px;
+    font-weight: bold;
+    /* display: inline-block; */
+
+}
+.tabla_linea{
+    height: 5px;
+    background-color: #140b24;
+}
+
+
+/* tabla buscador */
+@media screen and (min-width:720px){
+    
+    .tabla_buscador{
+        margin-bottom: 10px;
+        padding-left: 20px;
+        /* display: inline-block; */
+        /* display: inline-block; */
+        /* border: 1px solid blue; */
+    }
+    .tabla_buscador span{
+        /* border: 1px solid #0B263D; */
+        font-size: 15px;
+        padding: 3px 7px 6px 7px;
+        margin-left: 5px;
+        background-color: #d1d1d1;
+    }
+    .tabla_buscador input{
+        width: 150px;
+    }
+}
+@media screen and (max-width:720px) and (min-width:480px){
+    
+    .tabla_buscador{
+        margin-bottom: 10px;
+        /* padding-left: 20px; */
+        /* display: inline-block; */
+        /* display: inline-block; */
+        /* border: 1px solid blue; */
+    }
+    .tabla_buscador span{
+        /* border: 1px solid #0B263D; */
+        font-size: 15px;
+        padding: 3px 7px 6px 7px;
+        margin-left: 5px;
+        background-color: #d1d1d1;
+    }
+    .tabla_buscador input{
+        width: 150px;
+    }
+    .tabla_buscador label{
+        display: none;
+    }
+}
+@media screen and (max-width:480px){
+    
+    .tabla_buscador{
+        margin-bottom: 10px;
+        /* display: inline-block; */
+        /* display: inline-block; */
+        /* border: 1px solid blue; */
+    }
+    .tabla_buscador span{
+        /* border: 1px solid #0B263D; */
+        font-size: 15px;
+        padding: 3px 7px 6px 7px;
+        margin-left: 5px;
+        background-color: #d1d1d1;
+    }
+    .tabla_buscador input{
+        width: 150px;
+    }
+}
+/* fin tabla buscador */
+
+/* tabla */
+.tabla_general thead tr th{
+    text-align: center;
+    padding: 10px;
+}
+.tabla_general thead{
+    border-bottom: solid 5px #0B263D;
+    background: #7e7e7e;
+}
+.tabla_general tbody tr:nth-child(odd):hover{
+    background: #b5c0d1;
+}
+.tabla_general tbody tr:nth-child(even):hover{
+    background: #7dadf0;
+    border-right: #ffffff;
+}
+.tabla_general tbody tr:nth-child(even) td{
+    /* background: #7dadf0; */
+    border-right: 1px solid  #ffffff;
+}
+.tabla_general tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+/* paginacion */
+.paginacion_tabla{
+    text-align: center;
+}

@@ -24,3 +24,12 @@ Route::get('inicio', function () {
 Route::get('principal',function(){
     return view(('principal'));
 });
+
+
+Route::group(['prefix' => 'admin', 'namespace'=>'Admin'], function() {
+    
+    Route::get('permiso','PermisoController@index')->name('permiso');
+    Route::get('permiso/crear','PermisoController@create')->name('premiso_create');
+    
+});
+

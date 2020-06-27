@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Admin;
 
 use Illuminate\Database\Eloquent\Model;
 
 class Permisos extends Model
 {
-    protected $table='permiso';
     //
+    protected $table='permiso';
 }
