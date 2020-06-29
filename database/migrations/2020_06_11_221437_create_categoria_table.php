@@ -20,6 +20,8 @@ class CreateCategoriaTable extends Migration
             $table->unsignedInteger('id_usuario');
             $table->foreign('id_usuario','fk_categoria_usuario')->references('id')->on('usuario')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
+            $table->charset='utf8mb4';
+            $table->collation='utf8mb4_spanish_ci';
         });
     }
 

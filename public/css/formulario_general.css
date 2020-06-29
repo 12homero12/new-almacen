@@ -1,0 +1,58 @@
+.formulario_menu label.requerido:after{
+    content: " *";
+    color: red;
+}
+ /* encabezado */
+.tabla_encabezado{
+    padding: 0px 20px;
+
+}
+.tabla_encabezado h3{
+
+    text-transform: capitalize;
+    letter-spacing:3px;
+    font-weight: bold;
+}
+.tabla_linea{
+    height: 5px;
+    background-color: #140b24;
+}
+
+/* formulario */
+
+.formulario_menu {
+    /* border: 1px solid red; */
+    padding: 20px 10px;
+}
+.formulario_menu small{
+    /* border: 1px solid red; */
+}
+
+/* boton */
+.boton div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */ 
+}
+
+/* mensajes */
+
+.mensaje ul li{
+    list-style: square;
+    /* border: 1px solid blue; */
+    margin-left: 35px;
+    text-decoration: underline;
+}
+.mensaje span{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.mensaje strong{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.mensaje button{
+    background: black;
+    color: white;
+}
+

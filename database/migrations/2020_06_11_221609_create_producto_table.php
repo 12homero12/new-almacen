@@ -26,6 +26,8 @@ class CreateProductoTable extends Migration
             $table->unsignedInteger('id_categoria');
             $table->foreign('id_categoria','fk_producto_categoria')->references('id')->on('categoria')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
+            $table->charset='utf8mb4';
+            $table->collation='utf8mb4_spanish_ci';
         });
     }
 

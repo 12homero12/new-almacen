@@ -30,6 +30,9 @@ Route::group(['prefix' => 'admin', 'namespace'=>'Admin'], function() {
     
     Route::get('permiso','PermisoController@index')->name('permiso');
     Route::get('permiso/crear','PermisoController@create')->name('premiso_create');
+    Route::get('menu','MenuController@index')->name('menu');
+    Route::get('menu/crear','MenuController@create')->name('menu_crear');
+    Route::post('menu','MenuController@store')->name('menu_guardar');
     
 });
 
